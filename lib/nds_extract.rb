@@ -46,7 +46,6 @@ final_revenue = 0
 
 while directors_and_revenue.length > counter do 
   final_revenue += directors_and_revenue[:name]
-  puts directors_and_revenue
   counter += 1
 end
 
