@@ -46,12 +46,13 @@ final_revenue = 0
 
 while directors_and_revenue.length > counter do 
   final_revenue += directors_and_revenue[:name]
+  puts directors_and_revenue
   counter += 1
 end
 
   final_revenue
   
-          
+end        
   # Write this implementation
   #
   # Should use methods:
@@ -61,6 +62,6 @@ end
   # Visit each key (i.e. director name), look up the value in the hash
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
-end
+
 
 
