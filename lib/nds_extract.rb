@@ -28,8 +28,7 @@ def list_of_directors(source)
   counter = 0 
   director_array = []
   while source.length > counter do 
-    
-  
+   director_array.push(source[counter][:name])
   end
 end
 
