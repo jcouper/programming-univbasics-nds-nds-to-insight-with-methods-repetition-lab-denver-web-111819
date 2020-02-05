@@ -49,7 +49,7 @@ final_revenue = 0
 while directors_and_revenue.length > counter do 
   current_director = array_of_director_names[counter]
   current_director_gross = directors_and_revenue[current_director]
-  final_revenue += directors_and_revenue[:name]
+  final_revenue += current_director_gross
   counter += 1
 end
 
