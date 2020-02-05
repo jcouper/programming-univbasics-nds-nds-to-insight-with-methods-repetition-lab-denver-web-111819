@@ -40,8 +40,16 @@ end
 def total_gross(source)
   
   
+directors_and_revenue = directors_totals(source)
+counter = 0 
+final_revenue = 0 
 
-  
+while directors_and_revenue.length > counter do 
+  final_revenue += directors_and_revenue[:name]
+  counter += 1
+end
+
+  final_revenue
   
           
   # Write this implementation
